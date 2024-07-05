@@ -404,7 +404,7 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                              sudo python3 bin/install_certifi.py
 
-                 #. Continue with the BasicSwap installation, executing the following two commands **one by one**.
+                 #. Continue with the BasicSwap installation.
                          
                          .. code-block::
 
