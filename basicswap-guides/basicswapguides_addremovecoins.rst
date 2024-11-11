@@ -135,7 +135,7 @@ If you've built :term:`BasicSwap` without using the Docker method, follow these 
 
                  .. code-block:: bash
 
-                     docker-compose stop
+                     Using the BacisSwap GUI, go to `Settings & Tools` menu, then click `Shutdown`
 
              #. Enable coins by typing the following commands accompanied by the coin you want to enable after the :guilabel:`--addcoin`.
 
@@ -143,6 +143,10 @@ If you've built :term:`BasicSwap` without using the Docker method, follow these 
 
                      export SWAP_DATADIR=/Users/$USER/coinswaps
                      basicswap-prepare --usebtcfastsync --datadir=/$SWAP_DATADIR --addcoin=bitcoin
+
+                 .. note::
+
+                     `--usebtcfastsync` is optional (and only relevant for Bitcoin).
 
              #. Activate the change to your BasicSwap instance.
 
